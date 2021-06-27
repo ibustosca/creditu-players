@@ -48,7 +48,7 @@ Recuerda que tu dominio en produccion es un servidor backend que debes disponer 
 ```
 npm run serve
 ```
-Este comando te indicará tu dirección IP + Puerto de ejecución de la App. Por ejemplo (http://localhost:8080)
+Este comando te indicará tu dirección IP + Puerto de ejecución de la App. Por ejemplo (http://localhost:8080).
 
 ## Ejecuciones adicionales (opcional)
 
