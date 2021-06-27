@@ -60,7 +60,7 @@ export default {
           str = this.searchPlayers;
         }
         const urlCreditu =
-          "https://creditu-players.herokuapp.com/player/search/" + str;
+          "https://creditu-api.herokuapp.com/player/search/" + str;
         let response = await axios.get(urlCreditu);
         this.results = response.data;
       } catch (error) {
