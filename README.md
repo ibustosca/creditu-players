@@ -24,21 +24,21 @@ Al momento de crear este proyecto, fue utilizada la versión 6.14.13.
 
 Para tu información, en este proyecto utilizamos las siguientes dependencias:
 
--vue/cli, versión 4.5.13
--vue-axios, versión 3.2.4
--axios, versión 0.21.1
+- vue/cli, versión 4.5.13
+- vue-axios, versión 3.2.4
+- axios, versión 0.21.1
 
 ## Importante
 
 En el archivo Search.vue, línea 62, debes cambiar la URL de la API de tu backend, ya sea si esta es local o remota. Por ejemplo:
 
--Ambiente local:
+- Ambiente local:
 ```
 http://localhost:5000/player/search/
 ```
 Recuerda que puedes descargar mi proyecto API backend, desde el repositorio https://github.com/ibustosca/creditu-api. El proyecto esta listo para conectar con este. Solo necesitas usar la misma URL que te acabo de mostrar como ejemplo.
 
--Ambiente en producción:
+- Ambiente en producción:
 ```
 http://midominio.com/player/search/
 ```
