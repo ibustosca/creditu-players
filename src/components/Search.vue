@@ -72,7 +72,7 @@ export default {
         this.validation = "";
         this.callAxios();
       } else {
-        this.validation = "El cuadro de búsqueda no puede ser vacío";
+        this.validation = "La búsqueda no puede ser vacía";
       }
     },
   },
