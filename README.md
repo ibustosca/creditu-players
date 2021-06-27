@@ -1,9 +1,8 @@
 # creditu-players
-```
-Este proyecto es un frontend desarrollado en Vue.js para buscar jugadores.
+
+Este proyecto es frontend está desarrollado en Vue.js para buscar jugadores.
 
 El proyecto de backend desarrollado con Nest.js lo puedes descargar desde mi otro repositorio (https://github.com/ibustosca/creditu-api).
-```
 
 ## Instala Node.js
 ```
@@ -31,11 +30,6 @@ Al momento de crear este proyecto, fue utilizada la versión 4.5.13.
 npm install --save axios vue-axios
 
 Al momento de crear este proyecto, fueron utilizadas las versiones vue-axios@3.2.4 y axios@0.21.1.
-```
-
-## Instala dotenv
-```
-npm i dotenv --save
 ```
 
 ### Para ejecutar tu proyecto en desarrollo ejecuta
