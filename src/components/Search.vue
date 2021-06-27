@@ -5,7 +5,7 @@
         class="buscar--input"
         v-model="searchPlayers"
         type="text"
-        placeholder="Search players"
+        placeholder=" Buscar jugadores"
         v-on:keyup.enter="buscarPlayers"
       />
       <button class="buscar--button" v-on:click="buscarPlayers">Buscar</button>
@@ -72,7 +72,7 @@ export default {
         this.validation = "";
         this.callAxios();
       } else {
-        this.validation = "Search box can't be empty";
+        this.validation = "El cuadro de búsqueda no puede ser vacío";
       }
     },
   },
