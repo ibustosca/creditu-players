@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1625961686468" clover="3.2.0">
+  <project timestamp="1625961686468" name="All files">
+    <metrics statements="24" coveredstatements="18" conditionals="4" coveredconditionals="1" methods="8" coveredmethods="6" elements="36" coveredelements="25" complexity="0" loc="24" ncloc="24" packages="2" files="2" classes="2"/>
+    <package name="src.components">
+      <metrics statements="13" coveredstatements="7" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="2"/>
+      <file name="Search.vue" path="C:\Users\mribu\Creditu\creditu-players\src\components\Search.vue">
+        <metrics statements="13" coveredstatements="7" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="2"/>
+        <line num="44" count="4" type="stmt"/>
+        <line num="47" count="6" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="58" count="3" type="stmt"/>
+        <line num="63" count="3" type="stmt"/>
+        <line num="64" count="3" type="stmt"/>
+        <line num="65" count="3" type="stmt"/>
+        <line num="67" count="3" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="74" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="tests.functions">
+      <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4"/>
+      <file name="search.js" path="C:\Users\mribu\Creditu\creditu-players\tests\functions\search.js">
+        <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="42" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="54" count="4" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

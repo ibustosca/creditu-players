@@ -1,120 +1,119 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Patua One", cursive;
+}
+
+header {
+  width: 100%;
+  display: grid;
+  background: #4a148c;
+  height: 70px;
+  box-shadow: 0px 5px 10px black;
+  position: relative;
+  z-index: 100;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: #4a148c;
+  min-height: 70px;
+}
+
+@media (min-width: 540px) {
+  .buscar {
+    padding-left: 130px;
+    padding-right: 130px;
   }
-  
-  html {
-    font-size: 62.5%;
-    font-family: "Patua One", cursive;
+}
+
+@media (min-width: 768px) {
+  .buscar {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+@media (min-width: 930px) {
+  .buscar {
+    padding-left: 290px;
+    padding-right: 290px;
   }
 
-  header {
-    width: 100%;
-    display: grid;
-    background: #4a148c;
-    height: 70px;
-    box-shadow: 0px 5px 10px black;
-    position: relative;
-    z-index: 100;
-  }
-
-  footer {
-    width: 100%;
+  .buscar--input {
+    width: 250px;
     text-align: center;
-    background-color: #4a148c;
-    min-height: 70px;
   }
 
-  @media (min-width: 540px) {
-    .buscar {
-      padding-left: 130px;
-      padding-right: 130px;
-    }
+  .buscar--button {
+    width: 90px;
   }
-  
-  @media (min-width: 768px) {
-    .buscar {
-      padding-left: 200px;
-      padding-right: 200px;
-    }
+}
+
+@media (min-width: 1100px) {
+  .buscar {
+    padding-left: 300px;
+    padding-right: 300px;
   }
-  
-  @media (min-width: 930px) {
-    .buscar {
-      padding-left: 290px;
-      padding-right: 290px;
-    }
-  
-    .buscar--input {
-      width: 250px;
-      text-align: center;
-    }
-  
-    .buscar--button {
-      width: 90px;
-    }
-  }
-  
-  @media (min-width: 1100px) {
-    .buscar {
-      padding-left: 300px;
-      padding-right: 300px;
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    .buscar--input {
-      width: 450px;
-      text-align: center;
-    }
-  
-    .buscar--button {
-      width: 120px;
-    }
-  }
-  
-  @media (min-width: 1440px) {
-    .buscar--input {
-      width: 650px;
-      text-align: center;
-    }
-  
-    .buscar--button {
-      width: 120px;
-    }
+}
+
+@media (min-width: 1200px) {
+  .buscar--input {
+    width: 450px;
+    text-align: center;
   }
 
-  @media (min-width: 1600px) {
-    html {
-      margin-left: 10%;
-      margin-right: 10%;
-    }
-    .buscar--input {
-      width: 550px;
-      text-align: center;
-    }
+  .buscar--button {
+    width: 120px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .buscar--input {
+    width: 650px;
+    text-align: center;
   }
 
-  @media (min-width: 1900px) {
-    html {
-      margin-left: 20%;
-      margin-right: 20%;
-    }
-    .buscar--input {
-      width: 350px;
-      text-align: center;
-    }
+  .buscar--button {
+    width: 120px;
   }
+}
 
-  @media (min-width: 2200px) {
-    html {
-      margin-left: 25%;
-      margin-right: 25%;
-    }
-    .buscar--input {
-      width: 350px;
-      text-align: center;
-    }
+@media (min-width: 1600px) {
+  html {
+    margin-left: 10%;
+    margin-right: 10%;
   }
+  .buscar--input {
+    width: 550px;
+    text-align: center;
+  }
+}
 
+@media (min-width: 1900px) {
+  html {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .buscar--input {
+    width: 350px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 2200px) {
+  html {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .buscar--input {
+    width: 350px;
+    text-align: center;
+  }
+}

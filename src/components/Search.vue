@@ -56,12 +56,16 @@ export default {
   methods: {
     async callAxios(str) {
       try {
-        if (this.searchPlayers.length > 0) {
+        /* if (this.searchPlayers.length > 0) {
           str = this.searchPlayers;
-        }
-        const urlCreditu = "http://localhost:5000/player/search/" + str;
-        let response = await axios.get(urlCreditu);
+        } */
+
+        const urlCreditu = "http://localhost:8080/player/search/" + str;
+        let response = await axios.get(urlCreditu, {timeout: 10000});
         this.results = response.data;
+
+        return response;
+
       } catch (error) {
         console.log(error);
       }
@@ -69,7 +73,7 @@ export default {
     buscarPlayers() {
       if (this.searchPlayers.length > 0) {
         this.validation = "";
-        this.callAxios();
+        this.callAxios(this.searchPlayers);
       } else {
         this.validation = "La búsqueda no puede ser vacía";
       }
