@@ -56,10 +56,6 @@ export default {
   methods: {
     async callAxios(str) {
       try {
-        /* if (this.searchPlayers.length > 0) {
-          str = this.searchPlayers;
-        } */
-
         const urlCreditu = "http://localhost:8080/player/search/" + str;
         let response = await axios.get(urlCreditu, {timeout: 10000});
         this.results = response.data;
